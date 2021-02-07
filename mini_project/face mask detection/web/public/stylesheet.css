@@ -1,0 +1,84 @@
+html,body{
+    background-color: rgb(34, 38, 41);
+    height: 100vh !important;
+    overflow: hidden;
+    /*background-image: url('iiest1.png');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    
+}
+
+#video-container{
+    width: 720px   !important;
+}
+
+
+
+@media(max-width: 768px){
+    #video-container{
+        width: 100vw   !important;
+        
+    }
+}
+
+@media(max-width: 1024px){
+    .display-2{
+        font-size: 4rem;
+    }
+}
+@media(max-width: 650px){
+    .display-2{
+        font-size: 3rem;
+    }
+}
+
+img.card-img-top{
+    height: 140px;
+}
+
+@media(min-width: 399px){
+    img.card-img-top{
+        height: 180px;
+    }
+}
+
+@media(min-width: 768px){
+    img.card-img-top{
+        height: 200px;
+    }
+}
+
+@media(min-width: 990px){
+    img.card-img-top{
+        height: 200px;
+    }
+}
+
+div.card,img.card-img-top{
+    border-radius: 25px;
+}
+
+div.card{
+    background-color: rgb(34, 38, 41);
+    box-shadow: 5px 5px 10px #454a4e, 
+            -10px -10px 20px #0d0e0f;
+}
+
+#loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%),translateY(-50%);
+    z-index: 999;
+}
+
+.blur{
+    filter: blur(3px);
+}
+
+#turn-off{
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    transform: translateX(-50%);
+}
